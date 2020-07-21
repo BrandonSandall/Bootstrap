@@ -11,8 +11,10 @@
     max-height: 100vh;
 }
 
+/*
 [class^="carousel-control"] {
 }
+*/
 
 .carousel-inner {
 background: gray;
