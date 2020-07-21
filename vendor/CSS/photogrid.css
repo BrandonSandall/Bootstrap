@@ -7,7 +7,7 @@
     font-family: Arial;
   }
   
-  .row {
+  .rowit {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
@@ -16,14 +16,14 @@
   }
   
   /* Create four equal columns that sits next to each other */
-  .column {
+  .columnit {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
   }
   
-  .column img {
+  .columnit img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
@@ -31,7 +31,7 @@
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
-    .column {
+    .columnit {
       -ms-flex: 50%;
       flex: 50%;
       max-width: 50%;
@@ -40,7 +40,7 @@
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column {
+    .columnit {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
@@ -55,5 +55,5 @@
   video {
     width: 100%;
     height: auto;
-    padding: 8px;
+    padding: 8px 0 0 0;
   }
