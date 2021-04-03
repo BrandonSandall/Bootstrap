@@ -19,3 +19,7 @@
 .carousel-inner {
 background: gray;
 }
+
+.row {
+    margin-top: 180px;
+}

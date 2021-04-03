@@ -1,19 +1,10 @@
 $(document).ready(function () {
     $(".titleSqueen").lettering();
-    $(".buttonSqueen").lettering();
 });
-
-
-
-
 
 $(document).ready(function () {
     animation();
 }, 1000);
-
-$('.buttonSqueen').click(function () {
-    animation();
-});
 
 
 function animation() {

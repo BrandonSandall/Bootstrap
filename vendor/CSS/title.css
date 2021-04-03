@@ -2,36 +2,18 @@
 .titleContainer {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  top: 50%;
+  top: 15%;
   left: 50%;
   display: block;
   position: absolute;
-  max-width: 300px;
+  max-width: 250px;
 }
 
-.buttonSqueen {
-  float: left;
-  position: relative;
-  bottom: -85px;
-  left: -25%;
-  -webkit-transform: translateX(-50%) rotate(-10deg);
-          transform: translateX(-50%) rotate(-10deg);
-  color: #e55643;
-  text-transform: uppercase;
-  opacity: 0;
-  visibility: hidden;
-  cursor: pointer;
+section{
+  font-family: 'Fjalla One', sans-serif;
 }
 
-.buttonSqueen span {
-  -webkit-transform: skew(-10deg);
-          transform: skew(-10deg);
-  display: block;
-  float: left;
-  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
-}
-
-h4 {
+h1 {
   color: #fff;
   text-transform: uppercase;
   font-size: 42px;

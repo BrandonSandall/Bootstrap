@@ -7,34 +7,18 @@ $shadowish: #533d4a;
 
 .titleContainer{
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 15%;
   left: 50%;
   display: block;
   position: absolute;
   max-width: 300px;
 }
 
-.buttonSqueen{
-  float: left;
-  position: relative;
-  bottom: -85px;
-  left: -25%;
-  transform: translateX(-50%) rotate(-10deg);
-  color: $redish;
-  text-transform: uppercase;
-  opacity: 0;
-  visibility: hidden;
-  cursor: pointer;
-  
-  span{
-    transform: skew(-10deg);
-    display: block;
-    float: left;
-    text-shadow: $shadowish 1px 1px, $shadowish 2px 2px, $shadowish 3px 3px, $shadowish 4px 4px;
-  }
+section{
+  font-family: 'Fjalla One', sans-serif;
 }
 
-h4{
+h1{
   color: #fff;
   text-transform: uppercase;
   font-size: 42px;
