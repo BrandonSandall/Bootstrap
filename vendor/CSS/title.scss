@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
-$redish: #67dc86;
-$greenish: #66c6dc;
-$yellowish: #e66be8;
+$greenish: #67dc86;
+$blueish: #66c6dc;
+$pinkish: #e66be8;
 $shadowish: #533d4a;
 
 .titleContainer{
@@ -11,14 +11,11 @@ $shadowish: #533d4a;
   left: 50%;
   display: block;
   position: absolute;
-  width: 33%;
+  width: 223px;
 }
 
 section{
   font-family: 'Fjalla One', sans-serif;
-}
-
-h1{
   color: #fff;
   text-transform: uppercase;
   font-size: 42px;
@@ -47,12 +44,12 @@ h1{
 
 .titleSqueen{
   &:nth-child(1){
-    color: $redish;
-  }
-  &:nth-child(2){
     color: $greenish;
   }
+  &:nth-child(2){
+    color: $blueish;
+  }
   &:nth-child(3){
-    color: $yellowish;
+    color: $pinkish;
   }
 }
