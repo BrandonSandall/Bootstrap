@@ -2,7 +2,7 @@
 .titleContainer {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  top: 10%;
+  top: 85px;
   left: 50%;
   display: block;
   position: absolute;
@@ -43,7 +43,7 @@ h1 {
 }
 
 .titleSqueen:nth-child(1) {
-  color: #e66be8;
+  color: #67dc86;
 }
 
 .titleSqueen:nth-child(2) {
@@ -51,6 +51,6 @@ h1 {
 }
 
 .titleSqueen:nth-child(3) {
-  color: #67dc86;
+  color: #e66be8;
 }
 /*# sourceMappingURL=title.css.map */
