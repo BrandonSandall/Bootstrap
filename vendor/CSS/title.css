@@ -6,7 +6,8 @@
   left: 50%;
   display: block;
   position: absolute;
-  max-width: 250px;
+  max-width: 290px;
+  width: 82%;
 }
 
 section{
